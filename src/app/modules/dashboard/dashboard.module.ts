@@ -8,7 +8,6 @@ import { DashboardComponent } from './dashboard.component';
 import {MatIconModule} from '@angular/material/icon';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { StudentsModule } from './pages/students/students.module';
-import { StudentDialogFormComponent } from './students/components/student-dialog-form/student-dialog-form.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -18,7 +17,7 @@ import { MatInputModule } from '@angular/material/input';
   declarations: [
     DashboardComponent,
     ToolbarComponent,
-    StudentDialogFormComponent
+    
   ],
   imports: [
     CommonModule,

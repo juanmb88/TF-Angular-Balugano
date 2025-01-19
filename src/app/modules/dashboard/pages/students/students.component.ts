@@ -3,7 +3,6 @@ import { FormBuilder, FormGroup,  Validators } from '@angular/forms';
 import { Student } from './models/index';
 import { generateRandomString } from '../../../../helpers/utils';
 import { MatDialog } from '@angular/material/dialog';
-import { StudentDialogFormComponent } from '../../students/components/student-dialog-form/student-dialog-form.component';
 
 @Component({
   selector: 'app-students',
@@ -76,8 +75,4 @@ export class StudentsComponent {
     })
    }
 
-   //metodo de dialog
-   onCreateStudent() : void {
-    this.matDialog.open(StudentDialogFormComponent)
-   }
 }
