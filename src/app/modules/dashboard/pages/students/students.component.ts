@@ -82,7 +82,11 @@ export class StudentsComponent {
     this.IdStudentEdit = student.id;
     this.studentForm.patchValue({
       name:student.name,
-      lastName:student.lastName
+      lastName:student.lastName,
+      age:student.age,
+      email:student.email,
+      phone:student.phone,
+      nationality:student.nationality
     })
    }
 
