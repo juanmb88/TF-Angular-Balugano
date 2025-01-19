@@ -54,7 +54,7 @@
 
     <ng-container matColumnDef="name">
         <th mat-header-cell *matHeaderCellDef> Nombre </th>
-        <td [bolder]="true" appHighlight mat-cell *matCellDef="let element"> {{element | fullName}} </td>
+        <td [bolder]="true" appFontSize appHighlight mat-cell *matCellDef="let element"> {{element | fullName}} </td>
     </ng-container>
 
     <ng-container matColumnDef="lastName">
