@@ -15,11 +15,16 @@ export class StudentsComponent {
   
   studentForm : FormGroup;//nombre de mi formulario y declaracion de formGroup
 ///PROPIEDADES DE LA TABLA
-  displayedColumns: string[] = ['id', 'name', 'lastName', 'actions'];
+  displayedColumns: string[] = ['id', 'name', 'lastName','age','email','phone','nationality', 'actions'];
   studentsList : Student[] = [{
     id:generateRandomString(6),
     name:"juan",
-    lastName:"Balugano"
+    lastName:"Balugano",
+    age:36,
+    email:"juan@juan.com",
+    phone:123123123,
+    nationality:"Argentina"
+    
   }];
 
   IdStudentEdit?:string | null = null
@@ -27,7 +32,13 @@ export class StudentsComponent {
   constructor(private fb: FormBuilder, private matDialog : MatDialog){
     this.studentForm = this.fb.group({
       name:[null,Validators.required],
-      lastName : [null, Validators.required]
+      lastName : [null, Validators.required],
+      age:[null,Validators.required],
+      email:[null,Validators.required],
+      phone:[null,Validators.required],
+      nationality:[null,Validators.required],
+
+
     });
   }
 
