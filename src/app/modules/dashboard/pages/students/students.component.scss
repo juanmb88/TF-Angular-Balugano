@@ -1,0 +1,27 @@
+h1 {
+    margin: 2px;
+    color: rgb(63, 63, 36);
+  }
+  
+  form {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem; // Espaciado entre los elementos
+  
+      .col-6 {
+        flex: 1 1 calc(50% - 1rem); // Ocupa 50% del ancho y permite ajuste
+        min-width: 200px; // Asegura un ancho mínimo
+      }
+    }
+  
+    .w-full {
+      width: 60%;
+    }
+  
+    .w-6 {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  
