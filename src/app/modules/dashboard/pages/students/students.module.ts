@@ -6,7 +6,10 @@ import { StudentsComponent } from './students.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
+import { HelpersModule } from '../../../../helpers/helpers.module';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,11 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatIconModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    HelpersModule,
+    MatDialogModule
   ],
   exports:[StudentsComponent]
 })
