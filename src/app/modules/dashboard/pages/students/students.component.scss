@@ -1,10 +1,7 @@
-h1 {
-    margin: 2px;
-    color: rgb(35, 181, 156);
-  }
+
   h1 {
     margin: 20px auto;
-    color: rgb(35, 181, 156);
+    color: rgb(47, 24, 91);
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
@@ -42,11 +39,10 @@ form {
 }
 
 table {
-    width: 100%;
-    margin-top: 30px;
+    width: 50%;
+    margin-top: 20px;
     border-collapse: collapse;
-    background-color: #fff;
-    border-radius: 8px;
+    background-color: #dadada;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -61,10 +57,10 @@ mat-header-cell {
     background-color: #f5f5f5;
     font-weight: bold;
 }
-
+/* 
 mat-cell {
     border-bottom: 1px solid #e0e0e0;
-}
+} */
 
 button {
     margin-right: 10px;
@@ -72,4 +68,18 @@ button {
 
 mat-icon {
     font-size: 20px;
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 16px; /* Espacio entre el spinner y el texto */
+}
+
+.spinner-container p {
+    font-size: 1.2em;
+    color: #0c6739; /* Color primario de Angular Material */
 }

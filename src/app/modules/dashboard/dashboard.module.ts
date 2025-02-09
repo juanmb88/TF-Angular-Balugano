@@ -11,12 +11,15 @@ import { StudentsModule } from './pages/students/students.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
+import { HelpersModule } from '../../helpers/helpers.module';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
     ToolbarComponent,
+    NavMenuComponent,
     
   ],
   imports: [
@@ -29,7 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     MatDialogModule, // Para diálogos
     MatFormFieldModule, // Para mat-form-field
     MatInputModule, // Para matInput
-    StudentsModule
+    StudentsModule,
+    HelpersModule
   ],
   exports:[DashboardComponent]
 })

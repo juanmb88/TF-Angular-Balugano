@@ -10,10 +10,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatTableModule} from '@angular/material/table';
 import { HelpersModule } from '../../../../helpers/helpers.module';
 import {MatDialogModule} from '@angular/material/dialog';
+import { StudentsDetailComponent } from './pages/students-detail/students-detail.component';
 
 @NgModule({
   declarations: [
-    StudentsComponent
+    StudentsComponent,
+    StudentsDetailComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +27,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     ReactiveFormsModule,
     MatTableModule,
     HelpersModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   exports:[StudentsComponent]
 })
