@@ -5,7 +5,7 @@
         <p>Por favor espere...</p>
     </div>
 } @else {
-    <button (click)="openFormDialog()" mat-flat-button >
+    <button [disabled]="!(isAdmin$ | async)" (click)="openFormDialog()" mat-flat-button >
         Crear curso
     </button>
 

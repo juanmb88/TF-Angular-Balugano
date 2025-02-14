@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { authGuard } from '../../core/guards/auth.guard';
+import { adminGuard } from '../../core/guards/admin.guard';
 //aca estamos en la ruta .../dashboard
 const routes: Routes = [{
   path: 'home',
@@ -7,15 +9,21 @@ const routes: Routes = [{
     import('./pages/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'students',
-    loadChildren: () =>
-      import('./pages/students/students.module').then((m) => m.StudentsModule),
+  path: 'students',
+  loadChildren: () =>
+    import('./pages/students/students.module').then((m) => m.StudentsModule),
+  },
+  {
+  path: 'courses',
+  loadChildren: () =>
+    import('./pages/courses/courses.module').then((m) => m.CoursesModule),
     },
     {
-      path: 'courses',
-      loadChildren: () =>
-        import('./pages/courses/courses.module').then((m) => m.CoursesModule),
-      },
+  path: 'users',
+  canActivate:[adminGuard],
+  loadChildren: () =>
+    import('./pages/users/users.module').then((m) => m.UsersModule),
+  },
 ];
 
 @NgModule({

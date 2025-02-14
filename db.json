@@ -1,0 +1,29 @@
+{
+  "courses": [
+    {
+      "id": "103",
+      "name": "Programación en JavaScript",
+      "teacher": "Carlos López",
+      "time": "Miércoles 18:00 - 20:00"
+    },
+    {
+      "id": "104",
+      "name": "Física ",
+      "teacher": "Ana Martínez",
+      "time": "Jueves 08:00 - 10:00"
+    },
+    {
+      "id": "105",
+      "name": "Diseño UX/UI",
+      "teacher": "Roberto ",
+      "time": "Viernes 16:00 - 18:00"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "sdjv4",
+      "name": "Kakashi Sensei",
+      "courseId": "105"
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatCardModule} from '@angular/material/card'
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ReactiveFormsModule } from '@angular/forms';
            MatDialogModule,
            MatInputModule,
            MatFormFieldModule,
-           ReactiveFormsModule
+           ReactiveFormsModule,
+           MatCardModule
         ]
 })
 export class HelpersModule { }
