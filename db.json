@@ -1,4 +1,38 @@
 {
+  "users": [
+    {
+      "id": "vnD3s",
+      "email": "admin@email.com",
+      "password": "123456",
+      "name": "Administrador",
+      "accessToken": "djMDFJNdfmvcJKDFdsmd23GFuedsvFGD2d32",
+      "role": "ADMIN"
+    },
+    {
+      "id": "avs3D",
+      "email": "employee@email.com",
+      "password": "123456",
+      "name": "Empleado",
+      "accessToken": "djMDFJNd3gngh61DFd56hhgfddd23GFue232",
+      "role": "EMPLOYEE"
+    },
+    {
+      "id": "fdvc",
+      "email": "student2@email.com",
+      "password": "123456",
+      "name": "GOKU",
+      "accessToken": "asdvfdsjgkfdkgjfdasdfDFDSBVDFSDF",
+      "role": "STUDENT"
+    },
+    {
+      "id": "fdvv3c",
+      "email": "student4@email.com",
+      "password": "123456",
+      "name": "GOHAN",
+      "accessToken": "dssdxcvdfgdsg45EDFDSfgERWCXGSFDGFDSGf",
+      "role": "STUDENT"
+    }
+  ],
   "courses": [
     {
       "id": "103",
@@ -14,9 +48,15 @@
     },
     {
       "id": "105",
+      "time": "Viernes 16:00 - 18:00",
       "name": "Diseño UX/UI",
-      "teacher": "Roberto ",
-      "time": "Viernes 16:00 - 18:00"
+      "teacher": "Roberto "
+    },
+    {
+      "id": "cdae",
+      "name": "FIFA",
+      "teacher": "JUAN",
+      "time": "TOTO EL DIA"
     }
   ],
   "teachers": [
@@ -24,6 +64,83 @@
       "id": "sdjv4",
       "name": "Kakashi Sensei",
       "courseId": "105"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "adc33D",
+      "studentId": "fdvc",
+      "courseId": "cdae"
+    },
+    {
+      "id": "c801",
+      "studentId": "fdvv3c",
+      "courseId": "104"
+    },
+    {
+      "id": "86fa",
+      "studentId": "fdvv3c",
+      "courseId": "cdae"
+    },
+    {
+      "id": "e218",
+      "studentId": "fdvc",
+      "courseId": "cdae"
+    },
+    {
+      "id": "0c0f",
+      "courseId": "104",
+      "studentId": "fdvv3c"
+    },
+    {
+      "id": "ac48",
+      "courseId": "104",
+      "studentId": "fdvv3c"
+    },
+    {
+      "id": "7bea",
+      "courseId": "104",
+      "studentId": "fdvv3c"
+    },
+    {
+      "id": "a214",
+      "courseId": "WaNibF",
+      "studentId": "fdvv3c"
+    },
+    {
+      "id": "cf0f",
+      "courseId": "104",
+      "studentId": "fdvv3c"
+    },
+    {
+      "id": "be5f",
+      "courseId": "F3At4e",
+      "studentId": "wd5L2r"
+    },
+    {
+      "id": "1e79",
+      "courseId": "XOBQPK",
+      "studentId": "8SDFjU"
+    },
+    {
+      "id": "95a5",
+      "courseId": "GRnzfu",
+      "studentId": "xp83YG"
+    },
+    {
+      "id": "c57e",
+      "courseId": "4s5mX3",
+      "studentId": "15WAZU"
+    },
+    {
+      "id": "206b",
+      "studentId": "fdvc",
+      "courseId": "103"
+    },
+    {
+      "id": "4fa7",
+      "studentId": "fdvc",
+      "courseId": "104"
     }
   ]
 }

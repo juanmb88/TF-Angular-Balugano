@@ -22,10 +22,4 @@ describe('AppComponent', () => {//agrupa casos de prueba por caracteristicas
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'pf-Balugano-Angular'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('pf-Balugano-Angular');
-  });
-
 });

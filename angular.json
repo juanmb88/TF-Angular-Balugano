@@ -44,15 +44,14 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeflex/primeflex.css"
             ],
             "scripts": []
           },
           "configurations": {
             "production": {
-              "budgets": [
-              
-              ],
+              "budgets": [],
               "outputHashing": "all"
             },
             "development": {
@@ -103,7 +102,6 @@
               "src/styles.scss",
               "node_modules/primeflex/primeflex.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
-              
             ],
             "scripts": []
           }
@@ -112,6 +110,9 @@
     }
   },
   "cli": {
-    "analytics": "eb6827f7-4bd0-49de-b5f0-04a0e72b68c4"
+    "analytics": "eb6827f7-4bd0-49de-b5f0-04a0e72b68c4",
+    "schematicCollections": [
+      "@ngrx/schematics"
+    ]
   }
 }

@@ -29,9 +29,9 @@ import { HelpersModule } from '../../helpers/helpers.module';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
-    MatDialogModule, // Para diálogos
-    MatFormFieldModule, // Para mat-form-field
-    MatInputModule, // Para matInput
+    MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule, 
     StudentsModule,
     HelpersModule
   ],
