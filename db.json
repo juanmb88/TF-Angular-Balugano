@@ -18,31 +18,39 @@
     },
     {
       "id": "fdvc",
-      "email": "student2@email.com",
+      "email": "goku@email.com",
       "password": "123456",
-      "name": "GOKU",
+      "name": "Goku",
       "accessToken": "asdvfdsjgkfdkgjfdasdfDFDSBVDFSDF",
       "role": "STUDENT"
     },
     {
       "id": "fdvv3c",
-      "email": "student4@email.com",
+      "email": "gohan@email.com",
       "password": "123456",
-      "name": "GOHAN",
-      "accessToken": "dssdxcvdfgdsg45EDFDSfgERWCXGSFDGFDSGf",
+      "name": "Gohan",
+      "accessToken": "dssdxcvdfgdsg45EDFDSfgERWCXasdFDGFDSGf",
+      "role": "STUDENT"
+    },
+    {
+      "id": "fdvv3c",
+      "email": "bulma@email.com",
+      "password": "123456",
+      "name": "Bulma",
+      "accessToken": "dssdxcvdfgdsg45EDFDSfgERWCXGSFDGFDSGr",
       "role": "STUDENT"
     }
   ],
   "courses": [
     {
       "id": "103",
-      "name": "Programación en JavaScript",
+      "name": "Programación con JavaScript",
       "teacher": "Carlos López",
       "time": "Miércoles 18:00 - 20:00"
     },
     {
       "id": "104",
-      "name": "Física ",
+      "name": "After Effects",
       "teacher": "Ana Martínez",
       "time": "Jueves 08:00 - 10:00"
     },
@@ -50,19 +58,30 @@
       "id": "105",
       "time": "Viernes 16:00 - 18:00",
       "name": "Diseño UX/UI",
-      "teacher": "Roberto "
+      "teacher": "Roberto Gomez Bolaño"
     },
     {
-      "id": "cdae",
-      "name": "FIFA",
-      "teacher": "JUAN",
-      "time": "TOTO EL DIA"
+      "id": "106",
+      "name": "VueJS",
+      "teacher": "Esteban Gimenez",
+      "time": "Miércoles 18:00 - 20:00"
+    },
+    {
+      "id": "107",
+      "name": "Programación con PHP",
+      "teacher": "Nicolas Hernandez",
+      "time": "Miércoles 11:00 - 14:00"
     }
   ],
   "teachers": [
     {
-      "id": "sdjv4",
+      "id": "105",
       "name": "Kakashi Sensei",
+      "courseId": "105"
+    },
+    {
+      "id": "106",
+      "name": "Maestro Roshi",
       "courseId": "105"
     }
   ],
@@ -83,64 +102,9 @@
       "courseId": "cdae"
     },
     {
-      "id": "e218",
-      "studentId": "fdvc",
-      "courseId": "cdae"
-    },
-    {
-      "id": "0c0f",
-      "courseId": "104",
-      "studentId": "fdvv3c"
-    },
-    {
-      "id": "ac48",
-      "courseId": "104",
-      "studentId": "fdvv3c"
-    },
-    {
-      "id": "7bea",
-      "courseId": "104",
-      "studentId": "fdvv3c"
-    },
-    {
-      "id": "a214",
-      "courseId": "WaNibF",
-      "studentId": "fdvv3c"
-    },
-    {
-      "id": "cf0f",
-      "courseId": "104",
-      "studentId": "fdvv3c"
-    },
-    {
-      "id": "be5f",
-      "courseId": "F3At4e",
-      "studentId": "wd5L2r"
-    },
-    {
-      "id": "1e79",
-      "courseId": "XOBQPK",
-      "studentId": "8SDFjU"
-    },
-    {
-      "id": "95a5",
-      "courseId": "GRnzfu",
-      "studentId": "xp83YG"
-    },
-    {
-      "id": "c57e",
-      "courseId": "4s5mX3",
-      "studentId": "15WAZU"
-    },
-    {
-      "id": "206b",
-      "studentId": "fdvc",
-      "courseId": "103"
-    },
-    {
-      "id": "4fa7",
-      "studentId": "fdvc",
-      "courseId": "104"
+      "id": "9230",
+      "courseId": "PdSXnL",
+      "studentId": "OKAN93"
     }
   ]
 }

@@ -1,5 +1,17 @@
 # PfBaluganoAngular
 
+CARPETA HELPERS => ARCHIVO HELPERS.MODULE.TS Contiene todas las librerias necesarias para este trabajo.
+
+## Usuarios para hacer pruebas de Login
+```
+estudiante : "email": "bulma@email.com",
+              "password": "123456", 
+```
+```
+administrador: "email": "admin@email.com",
+               "password": "123456", 
+```
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
 
 ## Development server
